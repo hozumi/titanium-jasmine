@@ -80,8 +80,8 @@
                                     this.log('<br>');
                               }
                         }
+                        Ti.API.error("[JASMINE] " + JSON.stringify(spec.results()));
                   }
-                  //Ti.API.debug(JSON.stringify(spec.results()));
         },
 
         reportSpecStarting: function(spec) {
