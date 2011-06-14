@@ -1,5 +1,5 @@
 (function(){
-      if (sampleapp.tests_enabled) {
+      if (tests_enabled) {
             Ti.include('/test/lib/jasmine-1.0.2.js');
             Ti.include('/test/lib/jasmine-titanium.js');
 
